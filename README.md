@@ -18,6 +18,14 @@
 - Rigor
 - Algorithms & AI
 
+**Return value**
+
+|||
+|--|--|
+| 1 | a line has been read |
+| 0 | EOF has been reached |
+| -1 | an error happened |
+
 [Read the full subject](https://github.com/nvanwinden/get_next_line/blob/main/en.subject.pdf).
 
 ## Instructions :clipboard:
@@ -28,7 +36,7 @@
 
 ### Write a main.c
 
-Read from a file
+Read from a file:
 
 ```
 #include "get_next_line.h"
@@ -52,7 +60,7 @@ int main () {
 }
 ```
 
-Read from stdin
+Read from stdin:
 
 ```
 #include "get_next_line.h"
@@ -73,7 +81,6 @@ int main () {
 }
 ```
 
-
 ### Compile
 
 `gcc -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c main.c -o get_next_line`
@@ -81,13 +88,3 @@ int main () {
 ### Run
 
 `./get_next_line`
-
-**Return value**
-
-|||
-|--|--|
-| 1 | a line has been read |
-| 0 | EOF has been reached |
-| -1 | an error happened |
-
-- Read from a redirection
