@@ -18,6 +18,8 @@
 - Rigor
 - Algorithms & AI
 
+[Read the full subject](https://github.com/nvanwinden/get_next_line/blob/main/en.subject.pdf).
+
 ## Instructions :clipboard:
 
 ### Clone repo
